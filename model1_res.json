@@ -1,5 +1,5 @@
 {
-    "video_duration": 10.133333333333333,
+    "video_duration": 5.066666666666666,
     "fps": 30.0,
     "detections": [
         {
@@ -27,7 +27,7 @@
             ]
         },
         {
-            "timestamp": 0.066,
+            "timestamp": 0.033,
             "frame": 1,
             "objects": [
                 {
@@ -51,7 +51,7 @@
             ]
         },
         {
-            "timestamp": 0.134,
+            "timestamp": 0.067,
             "frame": 2,
             "objects": [
                 {
@@ -69,7 +69,7 @@
             ]
         },
         {
-            "timestamp": 0.2,
+            "timestamp": 0.1,
             "frame": 3,
             "objects": [
                 {
@@ -87,7 +87,7 @@
             ]
         },
         {
-            "timestamp": 0.266,
+            "timestamp": 0.133,
             "frame": 4,
             "objects": [
                 {
@@ -105,7 +105,7 @@
             ]
         },
         {
-            "timestamp": 0.334,
+            "timestamp": 0.167,
             "frame": 5,
             "objects": [
                 {
@@ -129,7 +129,7 @@
             ]
         },
         {
-            "timestamp": 0.4,
+            "timestamp": 0.2,
             "frame": 6,
             "objects": [
                 {
@@ -153,7 +153,7 @@
             ]
         },
         {
-            "timestamp": 0.466,
+            "timestamp": 0.233,
             "frame": 7,
             "objects": [
                 {
@@ -171,7 +171,7 @@
             ]
         },
         {
-            "timestamp": 0.534,
+            "timestamp": 0.267,
             "frame": 8,
             "objects": [
                 {
@@ -183,7 +183,7 @@
             ]
         },
         {
-            "timestamp": 0.6,
+            "timestamp": 0.3,
             "frame": 9,
             "objects": [
                 {
@@ -195,7 +195,7 @@
             ]
         },
         {
-            "timestamp": 0.666,
+            "timestamp": 0.333,
             "frame": 10,
             "objects": [
                 {
@@ -219,7 +219,7 @@
             ]
         },
         {
-            "timestamp": 0.734,
+            "timestamp": 0.367,
             "frame": 11,
             "objects": [
                 {
@@ -243,7 +243,7 @@
             ]
         },
         {
-            "timestamp": 0.8,
+            "timestamp": 0.4,
             "frame": 12,
             "objects": [
                 {
@@ -267,7 +267,7 @@
             ]
         },
         {
-            "timestamp": 0.866,
+            "timestamp": 0.433,
             "frame": 13,
             "objects": [
                 {
@@ -291,7 +291,7 @@
             ]
         },
         {
-            "timestamp": 0.934,
+            "timestamp": 0.467,
             "frame": 14,
             "objects": [
                 {
@@ -315,7 +315,7 @@
             ]
         },
         {
-            "timestamp": 1.0,
+            "timestamp": 0.5,
             "frame": 15,
             "objects": [
                 {
@@ -339,7 +339,7 @@
             ]
         },
         {
-            "timestamp": 1.066,
+            "timestamp": 0.533,
             "frame": 16,
             "objects": [
                 {
@@ -363,7 +363,7 @@
             ]
         },
         {
-            "timestamp": 1.134,
+            "timestamp": 0.567,
             "frame": 17,
             "objects": [
                 {
@@ -387,7 +387,7 @@
             ]
         },
         {
-            "timestamp": 1.2,
+            "timestamp": 0.6,
             "frame": 18,
             "objects": [
                 {
@@ -411,7 +411,7 @@
             ]
         },
         {
-            "timestamp": 1.266,
+            "timestamp": 0.633,
             "frame": 19,
             "objects": [
                 {
@@ -435,7 +435,7 @@
             ]
         },
         {
-            "timestamp": 1.334,
+            "timestamp": 0.667,
             "frame": 20,
             "objects": [
                 {
@@ -459,7 +459,7 @@
             ]
         },
         {
-            "timestamp": 1.4,
+            "timestamp": 0.7,
             "frame": 21,
             "objects": [
                 {
@@ -483,7 +483,7 @@
             ]
         },
         {
-            "timestamp": 1.466,
+            "timestamp": 0.733,
             "frame": 22,
             "objects": [
                 {
@@ -507,7 +507,7 @@
             ]
         },
         {
-            "timestamp": 1.534,
+            "timestamp": 0.767,
             "frame": 23,
             "objects": [
                 {
@@ -537,7 +537,7 @@
             ]
         },
         {
-            "timestamp": 1.6,
+            "timestamp": 0.8,
             "frame": 24,
             "objects": [
                 {
@@ -567,7 +567,7 @@
             ]
         },
         {
-            "timestamp": 1.666,
+            "timestamp": 0.833,
             "frame": 25,
             "objects": [
                 {
@@ -597,7 +597,7 @@
             ]
         },
         {
-            "timestamp": 1.734,
+            "timestamp": 0.867,
             "frame": 26,
             "objects": [
                 {
@@ -627,7 +627,7 @@
             ]
         },
         {
-            "timestamp": 1.8,
+            "timestamp": 0.9,
             "frame": 27,
             "objects": [
                 {
@@ -657,7 +657,7 @@
             ]
         },
         {
-            "timestamp": 1.866,
+            "timestamp": 0.933,
             "frame": 28,
             "objects": [
                 {
@@ -693,7 +693,7 @@
             ]
         },
         {
-            "timestamp": 1.934,
+            "timestamp": 0.967,
             "frame": 29,
             "objects": [
                 {
@@ -729,7 +729,7 @@
             ]
         },
         {
-            "timestamp": 2.0,
+            "timestamp": 1.0,
             "frame": 30,
             "objects": [
                 {
@@ -765,7 +765,7 @@
             ]
         },
         {
-            "timestamp": 2.066,
+            "timestamp": 1.033,
             "frame": 31,
             "objects": [
                 {
@@ -801,7 +801,7 @@
             ]
         },
         {
-            "timestamp": 2.134,
+            "timestamp": 1.067,
             "frame": 32,
             "objects": [
                 {
@@ -843,7 +843,7 @@
             ]
         },
         {
-            "timestamp": 2.2,
+            "timestamp": 1.1,
             "frame": 33,
             "objects": [
                 {
@@ -879,7 +879,7 @@
             ]
         },
         {
-            "timestamp": 2.266,
+            "timestamp": 1.133,
             "frame": 34,
             "objects": [
                 {
@@ -915,7 +915,7 @@
             ]
         },
         {
-            "timestamp": 2.334,
+            "timestamp": 1.167,
             "frame": 35,
             "objects": [
                 {
@@ -945,7 +945,7 @@
             ]
         },
         {
-            "timestamp": 2.4,
+            "timestamp": 1.2,
             "frame": 36,
             "objects": [
                 {
@@ -975,7 +975,7 @@
             ]
         },
         {
-            "timestamp": 2.466,
+            "timestamp": 1.233,
             "frame": 37,
             "objects": [
                 {
@@ -1005,7 +1005,7 @@
             ]
         },
         {
-            "timestamp": 2.534,
+            "timestamp": 1.267,
             "frame": 38,
             "objects": [
                 {
@@ -1035,7 +1035,7 @@
             ]
         },
         {
-            "timestamp": 2.6,
+            "timestamp": 1.3,
             "frame": 39,
             "objects": [
                 {
@@ -1065,7 +1065,7 @@
             ]
         },
         {
-            "timestamp": 2.666,
+            "timestamp": 1.333,
             "frame": 40,
             "objects": [
                 {
@@ -1095,7 +1095,7 @@
             ]
         },
         {
-            "timestamp": 2.734,
+            "timestamp": 1.367,
             "frame": 41,
             "objects": [
                 {
@@ -1125,7 +1125,7 @@
             ]
         },
         {
-            "timestamp": 2.8,
+            "timestamp": 1.4,
             "frame": 42,
             "objects": [
                 {
@@ -1155,7 +1155,7 @@
             ]
         },
         {
-            "timestamp": 2.866,
+            "timestamp": 1.433,
             "frame": 43,
             "objects": [
                 {
@@ -1173,7 +1173,7 @@
             ]
         },
         {
-            "timestamp": 2.934,
+            "timestamp": 1.467,
             "frame": 44,
             "objects": [
                 {
@@ -1191,7 +1191,7 @@
             ]
         },
         {
-            "timestamp": 3.0,
+            "timestamp": 1.5,
             "frame": 45,
             "objects": [
                 {
@@ -1215,7 +1215,7 @@
             ]
         },
         {
-            "timestamp": 3.066,
+            "timestamp": 1.533,
             "frame": 46,
             "objects": [
                 {
@@ -1239,7 +1239,7 @@
             ]
         },
         {
-            "timestamp": 3.134,
+            "timestamp": 1.567,
             "frame": 47,
             "objects": [
                 {
@@ -1263,7 +1263,7 @@
             ]
         },
         {
-            "timestamp": 3.2,
+            "timestamp": 1.6,
             "frame": 48,
             "objects": [
                 {
@@ -1287,7 +1287,7 @@
             ]
         },
         {
-            "timestamp": 3.266,
+            "timestamp": 1.633,
             "frame": 49,
             "objects": [
                 {
@@ -1311,7 +1311,7 @@
             ]
         },
         {
-            "timestamp": 3.334,
+            "timestamp": 1.667,
             "frame": 50,
             "objects": [
                 {
@@ -1329,7 +1329,7 @@
             ]
         },
         {
-            "timestamp": 3.4,
+            "timestamp": 1.7,
             "frame": 51,
             "objects": [
                 {
@@ -1347,7 +1347,7 @@
             ]
         },
         {
-            "timestamp": 3.466,
+            "timestamp": 1.733,
             "frame": 52,
             "objects": [
                 {
@@ -1365,7 +1365,7 @@
             ]
         },
         {
-            "timestamp": 3.534,
+            "timestamp": 1.767,
             "frame": 53,
             "objects": [
                 {
@@ -1383,7 +1383,7 @@
             ]
         },
         {
-            "timestamp": 3.6,
+            "timestamp": 1.8,
             "frame": 54,
             "objects": [
                 {
@@ -1401,7 +1401,7 @@
             ]
         },
         {
-            "timestamp": 3.666,
+            "timestamp": 1.833,
             "frame": 55,
             "objects": [
                 {
@@ -1419,7 +1419,7 @@
             ]
         },
         {
-            "timestamp": 3.734,
+            "timestamp": 1.867,
             "frame": 56,
             "objects": [
                 {
@@ -1437,7 +1437,7 @@
             ]
         },
         {
-            "timestamp": 3.8,
+            "timestamp": 1.9,
             "frame": 57,
             "objects": [
                 {
@@ -1455,7 +1455,7 @@
             ]
         },
         {
-            "timestamp": 3.866,
+            "timestamp": 1.933,
             "frame": 58,
             "objects": [
                 {
@@ -1467,7 +1467,7 @@
             ]
         },
         {
-            "timestamp": 3.934,
+            "timestamp": 1.967,
             "frame": 59,
             "objects": [
                 {
@@ -1479,7 +1479,7 @@
             ]
         },
         {
-            "timestamp": 4.0,
+            "timestamp": 2.0,
             "frame": 60,
             "objects": [
                 {
@@ -1491,7 +1491,7 @@
             ]
         },
         {
-            "timestamp": 4.066,
+            "timestamp": 2.033,
             "frame": 61,
             "objects": [
                 {
@@ -1503,7 +1503,7 @@
             ]
         },
         {
-            "timestamp": 4.134,
+            "timestamp": 2.067,
             "frame": 62,
             "objects": [
                 {
@@ -1515,7 +1515,7 @@
             ]
         },
         {
-            "timestamp": 4.2,
+            "timestamp": 2.1,
             "frame": 63,
             "objects": [
                 {
@@ -1527,7 +1527,7 @@
             ]
         },
         {
-            "timestamp": 4.266,
+            "timestamp": 2.133,
             "frame": 64,
             "objects": [
                 {
@@ -1539,7 +1539,7 @@
             ]
         },
         {
-            "timestamp": 4.334,
+            "timestamp": 2.167,
             "frame": 65,
             "objects": [
                 {
@@ -1551,7 +1551,7 @@
             ]
         },
         {
-            "timestamp": 4.4,
+            "timestamp": 2.2,
             "frame": 66,
             "objects": [
                 {
@@ -1563,7 +1563,7 @@
             ]
         },
         {
-            "timestamp": 4.466,
+            "timestamp": 2.233,
             "frame": 67,
             "objects": [
                 {
@@ -1575,7 +1575,7 @@
             ]
         },
         {
-            "timestamp": 4.534,
+            "timestamp": 2.267,
             "frame": 68,
             "objects": [
                 {
@@ -1587,7 +1587,7 @@
             ]
         },
         {
-            "timestamp": 4.6,
+            "timestamp": 2.3,
             "frame": 69,
             "objects": [
                 {
@@ -1599,7 +1599,7 @@
             ]
         },
         {
-            "timestamp": 4.666,
+            "timestamp": 2.333,
             "frame": 70,
             "objects": [
                 {
@@ -1617,7 +1617,7 @@
             ]
         },
         {
-            "timestamp": 4.734,
+            "timestamp": 2.367,
             "frame": 71,
             "objects": [
                 {
@@ -1635,7 +1635,7 @@
             ]
         },
         {
-            "timestamp": 4.8,
+            "timestamp": 2.4,
             "frame": 72,
             "objects": [
                 {
@@ -1653,7 +1653,7 @@
             ]
         },
         {
-            "timestamp": 4.866,
+            "timestamp": 2.433,
             "frame": 73,
             "objects": [
                 {
@@ -1671,7 +1671,7 @@
             ]
         },
         {
-            "timestamp": 4.934,
+            "timestamp": 2.467,
             "frame": 74,
             "objects": [
                 {
@@ -1689,7 +1689,7 @@
             ]
         },
         {
-            "timestamp": 5.0,
+            "timestamp": 2.5,
             "frame": 75,
             "objects": [
                 {
@@ -1707,7 +1707,7 @@
             ]
         },
         {
-            "timestamp": 5.066,
+            "timestamp": 2.533,
             "frame": 76,
             "objects": [
                 {
@@ -1725,7 +1725,7 @@
             ]
         },
         {
-            "timestamp": 5.134,
+            "timestamp": 2.567,
             "frame": 77,
             "objects": [
                 {
@@ -1743,7 +1743,7 @@
             ]
         },
         {
-            "timestamp": 5.2,
+            "timestamp": 2.6,
             "frame": 78,
             "objects": [
                 {
@@ -1761,7 +1761,7 @@
             ]
         },
         {
-            "timestamp": 5.266,
+            "timestamp": 2.633,
             "frame": 79,
             "objects": [
                 {
@@ -1779,7 +1779,7 @@
             ]
         },
         {
-            "timestamp": 5.334,
+            "timestamp": 2.667,
             "frame": 80,
             "objects": [
                 {
@@ -1797,7 +1797,7 @@
             ]
         },
         {
-            "timestamp": 5.4,
+            "timestamp": 2.7,
             "frame": 81,
             "objects": [
                 {
@@ -1815,7 +1815,7 @@
             ]
         },
         {
-            "timestamp": 5.466,
+            "timestamp": 2.733,
             "frame": 82,
             "objects": [
                 {
@@ -1845,7 +1845,7 @@
             ]
         },
         {
-            "timestamp": 5.534,
+            "timestamp": 2.767,
             "frame": 83,
             "objects": [
                 {
@@ -1875,7 +1875,7 @@
             ]
         },
         {
-            "timestamp": 5.6,
+            "timestamp": 2.8,
             "frame": 84,
             "objects": [
                 {
@@ -1905,7 +1905,7 @@
             ]
         },
         {
-            "timestamp": 5.666,
+            "timestamp": 2.833,
             "frame": 85,
             "objects": [
                 {
@@ -1935,7 +1935,7 @@
             ]
         },
         {
-            "timestamp": 5.734,
+            "timestamp": 2.867,
             "frame": 86,
             "objects": [
                 {
@@ -1959,7 +1959,7 @@
             ]
         },
         {
-            "timestamp": 5.8,
+            "timestamp": 2.9,
             "frame": 87,
             "objects": [
                 {
@@ -1989,7 +1989,7 @@
             ]
         },
         {
-            "timestamp": 5.866,
+            "timestamp": 2.933,
             "frame": 88,
             "objects": [
                 {
@@ -2013,7 +2013,7 @@
             ]
         },
         {
-            "timestamp": 5.934,
+            "timestamp": 2.967,
             "frame": 89,
             "objects": [
                 {
@@ -2037,7 +2037,7 @@
             ]
         },
         {
-            "timestamp": 6.0,
+            "timestamp": 3.0,
             "frame": 90,
             "objects": [
                 {
@@ -2061,7 +2061,7 @@
             ]
         },
         {
-            "timestamp": 6.066,
+            "timestamp": 3.033,
             "frame": 91,
             "objects": [
                 {
@@ -2085,7 +2085,7 @@
             ]
         },
         {
-            "timestamp": 6.134,
+            "timestamp": 3.067,
             "frame": 92,
             "objects": [
                 {
@@ -2115,7 +2115,7 @@
             ]
         },
         {
-            "timestamp": 6.2,
+            "timestamp": 3.1,
             "frame": 93,
             "objects": [
                 {
@@ -2145,7 +2145,7 @@
             ]
         },
         {
-            "timestamp": 6.266,
+            "timestamp": 3.133,
             "frame": 94,
             "objects": [
                 {
@@ -2175,7 +2175,7 @@
             ]
         },
         {
-            "timestamp": 6.334,
+            "timestamp": 3.167,
             "frame": 95,
             "objects": [
                 {
@@ -2205,7 +2205,7 @@
             ]
         },
         {
-            "timestamp": 6.4,
+            "timestamp": 3.2,
             "frame": 96,
             "objects": [
                 {
@@ -2235,7 +2235,7 @@
             ]
         },
         {
-            "timestamp": 6.466,
+            "timestamp": 3.233,
             "frame": 97,
             "objects": [
                 {
@@ -2265,7 +2265,7 @@
             ]
         },
         {
-            "timestamp": 6.534,
+            "timestamp": 3.267,
             "frame": 98,
             "objects": [
                 {
@@ -2295,7 +2295,7 @@
             ]
         },
         {
-            "timestamp": 6.6,
+            "timestamp": 3.3,
             "frame": 99,
             "objects": [
                 {
@@ -2325,7 +2325,7 @@
             ]
         },
         {
-            "timestamp": 6.666,
+            "timestamp": 3.333,
             "frame": 100,
             "objects": [
                 {
@@ -2343,7 +2343,7 @@
             ]
         },
         {
-            "timestamp": 6.734,
+            "timestamp": 3.367,
             "frame": 101,
             "objects": [
                 {
@@ -2361,7 +2361,7 @@
             ]
         },
         {
-            "timestamp": 6.8,
+            "timestamp": 3.4,
             "frame": 102,
             "objects": [
                 {
@@ -2379,7 +2379,7 @@
             ]
         },
         {
-            "timestamp": 6.866,
+            "timestamp": 3.433,
             "frame": 103,
             "objects": [
                 {
@@ -2397,7 +2397,7 @@
             ]
         },
         {
-            "timestamp": 6.934,
+            "timestamp": 3.467,
             "frame": 104,
             "objects": [
                 {
@@ -2415,7 +2415,7 @@
             ]
         },
         {
-            "timestamp": 7.0,
+            "timestamp": 3.5,
             "frame": 105,
             "objects": [
                 {
@@ -2445,7 +2445,7 @@
             ]
         },
         {
-            "timestamp": 7.066,
+            "timestamp": 3.533,
             "frame": 106,
             "objects": [
                 {
@@ -2469,7 +2469,7 @@
             ]
         },
         {
-            "timestamp": 7.134,
+            "timestamp": 3.567,
             "frame": 107,
             "objects": [
                 {
@@ -2505,7 +2505,7 @@
             ]
         },
         {
-            "timestamp": 7.2,
+            "timestamp": 3.6,
             "frame": 108,
             "objects": [
                 {
@@ -2529,7 +2529,7 @@
             ]
         },
         {
-            "timestamp": 7.266,
+            "timestamp": 3.633,
             "frame": 109,
             "objects": [
                 {
@@ -2553,7 +2553,7 @@
             ]
         },
         {
-            "timestamp": 7.334,
+            "timestamp": 3.667,
             "frame": 110,
             "objects": [
                 {
@@ -2583,7 +2583,7 @@
             ]
         },
         {
-            "timestamp": 7.4,
+            "timestamp": 3.7,
             "frame": 111,
             "objects": [
                 {
@@ -2601,7 +2601,7 @@
             ]
         },
         {
-            "timestamp": 7.466,
+            "timestamp": 3.733,
             "frame": 112,
             "objects": [
                 {
@@ -2619,7 +2619,7 @@
             ]
         },
         {
-            "timestamp": 7.534,
+            "timestamp": 3.767,
             "frame": 113,
             "objects": [
                 {
@@ -2637,7 +2637,7 @@
             ]
         },
         {
-            "timestamp": 7.6,
+            "timestamp": 3.8,
             "frame": 114,
             "objects": [
                 {
@@ -2655,7 +2655,7 @@
             ]
         },
         {
-            "timestamp": 7.666,
+            "timestamp": 3.833,
             "frame": 115,
             "objects": [
                 {
@@ -2673,7 +2673,7 @@
             ]
         },
         {
-            "timestamp": 7.734,
+            "timestamp": 3.867,
             "frame": 116,
             "objects": [
                 {
@@ -2691,7 +2691,7 @@
             ]
         },
         {
-            "timestamp": 7.8,
+            "timestamp": 3.9,
             "frame": 117,
             "objects": [
                 {
@@ -2709,7 +2709,7 @@
             ]
         },
         {
-            "timestamp": 7.866,
+            "timestamp": 3.933,
             "frame": 118,
             "objects": [
                 {
@@ -2727,7 +2727,7 @@
             ]
         },
         {
-            "timestamp": 7.934,
+            "timestamp": 3.967,
             "frame": 119,
             "objects": [
                 {
@@ -2745,7 +2745,7 @@
             ]
         },
         {
-            "timestamp": 8.0,
+            "timestamp": 4.0,
             "frame": 120,
             "objects": [
                 {
@@ -2769,7 +2769,7 @@
             ]
         },
         {
-            "timestamp": 8.066,
+            "timestamp": 4.033,
             "frame": 121,
             "objects": [
                 {
@@ -2787,7 +2787,7 @@
             ]
         },
         {
-            "timestamp": 8.134,
+            "timestamp": 4.067,
             "frame": 122,
             "objects": [
                 {
@@ -2805,7 +2805,7 @@
             ]
         },
         {
-            "timestamp": 8.2,
+            "timestamp": 4.1,
             "frame": 123,
             "objects": [
                 {
@@ -2823,7 +2823,7 @@
             ]
         },
         {
-            "timestamp": 8.266,
+            "timestamp": 4.133,
             "frame": 124,
             "objects": [
                 {
@@ -2841,7 +2841,7 @@
             ]
         },
         {
-            "timestamp": 8.334,
+            "timestamp": 4.167,
             "frame": 125,
             "objects": [
                 {
@@ -2859,7 +2859,7 @@
             ]
         },
         {
-            "timestamp": 8.4,
+            "timestamp": 4.2,
             "frame": 126,
             "objects": [
                 {
@@ -2877,7 +2877,7 @@
             ]
         },
         {
-            "timestamp": 8.466,
+            "timestamp": 4.233,
             "frame": 127,
             "objects": [
                 {
@@ -2895,7 +2895,7 @@
             ]
         },
         {
-            "timestamp": 8.534,
+            "timestamp": 4.267,
             "frame": 128,
             "objects": [
                 {
@@ -2913,7 +2913,7 @@
             ]
         },
         {
-            "timestamp": 8.6,
+            "timestamp": 4.3,
             "frame": 129,
             "objects": [
                 {
@@ -2931,7 +2931,7 @@
             ]
         },
         {
-            "timestamp": 8.666,
+            "timestamp": 4.333,
             "frame": 130,
             "objects": [
                 {
@@ -2949,7 +2949,7 @@
             ]
         },
         {
-            "timestamp": 8.734,
+            "timestamp": 4.367,
             "frame": 131,
             "objects": [
                 {
@@ -2967,7 +2967,7 @@
             ]
         },
         {
-            "timestamp": 8.8,
+            "timestamp": 4.4,
             "frame": 132,
             "objects": [
                 {
@@ -2985,7 +2985,7 @@
             ]
         },
         {
-            "timestamp": 8.866,
+            "timestamp": 4.433,
             "frame": 133,
             "objects": [
                 {
@@ -2997,7 +2997,7 @@
             ]
         },
         {
-            "timestamp": 8.934,
+            "timestamp": 4.467,
             "frame": 134,
             "objects": [
                 {
@@ -3009,7 +3009,7 @@
             ]
         },
         {
-            "timestamp": 9.0,
+            "timestamp": 4.5,
             "frame": 135,
             "objects": [
                 {
@@ -3021,7 +3021,7 @@
             ]
         },
         {
-            "timestamp": 9.066,
+            "timestamp": 4.533,
             "frame": 136,
             "objects": [
                 {
@@ -3033,7 +3033,7 @@
             ]
         },
         {
-            "timestamp": 9.134,
+            "timestamp": 4.567,
             "frame": 137,
             "objects": [
                 {
@@ -3045,7 +3045,7 @@
             ]
         },
         {
-            "timestamp": 9.2,
+            "timestamp": 4.6,
             "frame": 138,
             "objects": [
                 {
@@ -3057,7 +3057,7 @@
             ]
         },
         {
-            "timestamp": 9.266,
+            "timestamp": 4.633,
             "frame": 139,
             "objects": [
                 {
@@ -3069,7 +3069,7 @@
             ]
         },
         {
-            "timestamp": 9.334,
+            "timestamp": 4.667,
             "frame": 140,
             "objects": [
                 {
@@ -3081,7 +3081,7 @@
             ]
         },
         {
-            "timestamp": 9.4,
+            "timestamp": 4.7,
             "frame": 141,
             "objects": [
                 {
@@ -3093,7 +3093,7 @@
             ]
         },
         {
-            "timestamp": 9.466,
+            "timestamp": 4.733,
             "frame": 142,
             "objects": [
                 {
@@ -3105,7 +3105,7 @@
             ]
         },
         {
-            "timestamp": 9.534,
+            "timestamp": 4.767,
             "frame": 143,
             "objects": [
                 {
@@ -3117,7 +3117,7 @@
             ]
         },
         {
-            "timestamp": 9.6,
+            "timestamp": 4.8,
             "frame": 144,
             "objects": [
                 {
@@ -3129,7 +3129,7 @@
             ]
         },
         {
-            "timestamp": 9.666,
+            "timestamp": 4.833,
             "frame": 145,
             "objects": [
                 {
@@ -3141,7 +3141,7 @@
             ]
         },
         {
-            "timestamp": 9.734,
+            "timestamp": 4.867,
             "frame": 146,
             "objects": [
                 {
@@ -3159,7 +3159,7 @@
             ]
         },
         {
-            "timestamp": 9.8,
+            "timestamp": 4.9,
             "frame": 147,
             "objects": [
                 {
@@ -3171,7 +3171,7 @@
             ]
         },
         {
-            "timestamp": 9.866,
+            "timestamp": 4.933,
             "frame": 148,
             "objects": [
                 {
@@ -3189,7 +3189,7 @@
             ]
         },
         {
-            "timestamp": 9.934,
+            "timestamp": 4.967,
             "frame": 149,
             "objects": [
                 {
@@ -3207,7 +3207,7 @@
             ]
         },
         {
-            "timestamp": 10.0,
+            "timestamp": 5.0,
             "frame": 150,
             "objects": [
                 {
@@ -3225,7 +3225,7 @@
             ]
         },
         {
-            "timestamp": 10.066,
+            "timestamp": 5.033,
             "frame": 151,
             "objects": [
                 {

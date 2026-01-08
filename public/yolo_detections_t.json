@@ -1,0 +1,2168 @@
+{
+    "video_duration": 5.041666666666667,
+    "fps": 24.0,
+    "detections": [
+        {
+            "timestamp": 0.0,
+            "frame": 0,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 1,
+                    "risk_score": 0.0
+                },
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.0
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.0
+                }
+            ]
+        },
+        {
+            "timestamp": 0.042,
+            "frame": 1,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 1,
+                    "risk_score": 0.012281786354093983
+                },
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.00011686366676016154
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.018365488571710293
+                }
+            ]
+        },
+        {
+            "timestamp": 0.083,
+            "frame": 2,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 1,
+                    "risk_score": 0.06092692374261255
+                },
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.00036345684671373196
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.002899453803829262
+                }
+            ]
+        },
+        {
+            "timestamp": 0.125,
+            "frame": 3,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 1,
+                    "risk_score": 0.09687695993738311
+                },
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.0005621505808956164
+                }
+            ]
+        },
+        {
+            "timestamp": 0.167,
+            "frame": 4,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 1,
+                    "risk_score": 0.126590882389576
+                },
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.0007208110583800704
+                }
+            ]
+        },
+        {
+            "timestamp": 0.208,
+            "frame": 5,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 1,
+                    "risk_score": 0.1551019797158473
+                },
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.0008476416275941023
+                }
+            ]
+        },
+        {
+            "timestamp": 0.25,
+            "frame": 6,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 1,
+                    "risk_score": 0.18245894250175926
+                },
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.0009927387694413847
+                }
+            ]
+        },
+        {
+            "timestamp": 0.292,
+            "frame": 7,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 1,
+                    "risk_score": 0.2087084903288841
+                },
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.0011050132702709959
+                }
+            ]
+        },
+        {
+            "timestamp": 0.333,
+            "frame": 8,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 1,
+                    "risk_score": 0.23389545156141356
+                },
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.0013413709960172365
+                }
+            ]
+        },
+        {
+            "timestamp": 0.375,
+            "frame": 9,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 1,
+                    "risk_score": 0.25582290421072895
+                },
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.00160495505977897
+                }
+            ]
+        },
+        {
+            "timestamp": 0.417,
+            "frame": 10,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 1,
+                    "risk_score": 0.0015977453382597998
+                },
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.27974250438496556
+                }
+            ]
+        },
+        {
+            "timestamp": 0.458,
+            "frame": 11,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.3035023171983254
+                },
+                {
+                    "class": "car",
+                    "id": 12,
+                    "risk_score": 0.000723809300074502
+                }
+            ]
+        },
+        {
+            "timestamp": 0.5,
+            "frame": 12,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.32485200662925157
+                },
+                {
+                    "class": "car",
+                    "id": 12,
+                    "risk_score": 0.000894875903477213
+                }
+            ]
+        },
+        {
+            "timestamp": 0.542,
+            "frame": 13,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.34533745664784643
+                },
+                {
+                    "class": "car",
+                    "id": 12,
+                    "risk_score": 0.0010174367927700768
+                }
+            ]
+        },
+        {
+            "timestamp": 0.583,
+            "frame": 14,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.17357792218487367
+                },
+                {
+                    "class": "car",
+                    "id": 12,
+                    "risk_score": 0.0005762198414474354
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.1925774503597413
+                }
+            ]
+        },
+        {
+            "timestamp": 0.625,
+            "frame": 15,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.18849070138434101
+                },
+                {
+                    "class": "car",
+                    "id": 12,
+                    "risk_score": 0.0005968675078539045
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.19662501224437917
+                }
+            ]
+        },
+        {
+            "timestamp": 0.667,
+            "frame": 16,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.2041484433395547
+                },
+                {
+                    "class": "car",
+                    "id": 12,
+                    "risk_score": 0.0006071422832509917
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.19913551295180576
+                }
+            ]
+        },
+        {
+            "timestamp": 0.708,
+            "frame": 17,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.0028253263962672833
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.4193156529655228
+                }
+            ]
+        },
+        {
+            "timestamp": 0.75,
+            "frame": 18,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.002937590986665854
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.43597719695211373
+                }
+            ]
+        },
+        {
+            "timestamp": 0.792,
+            "frame": 19,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.4550095788084344
+                }
+            ]
+        },
+        {
+            "timestamp": 0.833,
+            "frame": 20,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.0031486706546211057
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.46730420005990936
+                }
+            ]
+        },
+        {
+            "timestamp": 0.875,
+            "frame": 21,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.0032478462091006994
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.48202315870474777
+                }
+            ]
+        },
+        {
+            "timestamp": 0.917,
+            "frame": 22,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.0033430071186273352
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.496146291156868
+                }
+            ]
+        },
+        {
+            "timestamp": 0.958,
+            "frame": 23,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.5131320202822875
+                }
+            ]
+        },
+        {
+            "timestamp": 1.0,
+            "frame": 24,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.5227005777569244
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.003521928478549366
+                }
+            ]
+        },
+        {
+            "timestamp": 1.042,
+            "frame": 25,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.5351770806948052
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.0036059944866609203
+                }
+            ]
+        },
+        {
+            "timestamp": 1.083,
+            "frame": 26,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.5471485324654608
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.0036866574870761584
+                }
+            ]
+        },
+        {
+            "timestamp": 1.125,
+            "frame": 27,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.5586353776343908
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.0037640552341816824
+                }
+            ]
+        },
+        {
+            "timestamp": 1.167,
+            "frame": 28,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.5696572331672674
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.003838319906040811
+                }
+            ]
+        },
+        {
+            "timestamp": 1.208,
+            "frame": 29,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.5802329219313319
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.003909578330124197
+                }
+            ]
+        },
+        {
+            "timestamp": 1.25,
+            "frame": 30,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.5903805048406476
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.003977952199902814
+                }
+            ]
+        },
+        {
+            "timestamp": 1.292,
+            "frame": 31,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.6001173117001053
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.004043558282673217
+                }
+            ]
+        },
+        {
+            "timestamp": 1.333,
+            "frame": 32,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.60945997080086
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.004106508618970011
+                }
+            ]
+        },
+        {
+            "timestamp": 1.375,
+            "frame": 33,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.6184244373177381
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.004166910713906048
+                }
+            ]
+        },
+        {
+            "timestamp": 1.417,
+            "frame": 34,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.6312508732864744
+                }
+            ]
+        },
+        {
+            "timestamp": 1.458,
+            "frame": 35,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.6352794101017718
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.004280478617174883
+                }
+            ]
+        },
+        {
+            "timestamp": 1.5,
+            "frame": 36,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.004333838374118216
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.6431987008974602
+                }
+            ]
+        },
+        {
+            "timestamp": 1.542,
+            "frame": 37,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.6551824398822773
+                }
+            ]
+        },
+        {
+            "timestamp": 1.583,
+            "frame": 38,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.0044341652869745694
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.6580885362913306
+                }
+            ]
+        },
+        {
+            "timestamp": 1.625,
+            "frame": 39,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.004481303778844207
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.6650845094023458
+                }
+            ]
+        },
+        {
+            "timestamp": 1.667,
+            "frame": 40,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.026533069781147545
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.6454417965297746
+                },
+                {
+                    "class": "car",
+                    "id": 31,
+                    "risk_score": 0.0004479425427033869
+                }
+            ]
+        },
+        {
+            "timestamp": 1.708,
+            "frame": 41,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 2,
+                    "risk_score": 0.022077328934398066
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.6563087695835541
+                },
+                {
+                    "class": "car",
+                    "id": 31,
+                    "risk_score": 0.000582807298948577
+                }
+            ]
+        },
+        {
+            "timestamp": 1.75,
+            "frame": 42,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.6890301902583872
+                }
+            ]
+        },
+        {
+            "timestamp": 1.792,
+            "frame": 43,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.004651532922089091
+                },
+                {
+                    "class": "truck",
+                    "id": 33,
+                    "risk_score": 0.6903487565519121
+                }
+            ]
+        },
+        {
+            "timestamp": 1.833,
+            "frame": 44,
+            "objects": []
+        },
+        {
+            "timestamp": 1.875,
+            "frame": 45,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.7062252110516856
+                }
+            ]
+        },
+        {
+            "timestamp": 1.917,
+            "frame": 46,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.7114992361113713
+                }
+            ]
+        },
+        {
+            "timestamp": 1.958,
+            "frame": 47,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0009713399348787084
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.0038402436855892812
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.7044938116392161
+                }
+            ]
+        },
+        {
+            "timestamp": 2.0,
+            "frame": 48,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0009763231519601483
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.004146709027593748
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.7091269043777324
+                }
+            ]
+        },
+        {
+            "timestamp": 2.042,
+            "frame": 49,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0009558094260065598
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.004457638514466492
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.7135668765877394
+                }
+            ]
+        },
+        {
+            "timestamp": 2.083,
+            "frame": 50,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0009326130671540456
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.004605320366844017
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.7178773029828958
+                }
+            ]
+        },
+        {
+            "timestamp": 2.125,
+            "frame": 51,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.000889645126096119
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.0051938410117513744
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.7217052413515672
+                }
+            ]
+        },
+        {
+            "timestamp": 2.167,
+            "frame": 52,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0007243549217366401
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.005395185555254164
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.7255259338856468
+                }
+            ]
+        },
+        {
+            "timestamp": 2.208,
+            "frame": 53,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0006631735480972853
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.005676436760258183
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.7292873807679568
+                }
+            ]
+        },
+        {
+            "timestamp": 2.25,
+            "frame": 54,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0005859674907648876
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.005911182377675943
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.732961666569844
+                }
+            ]
+        },
+        {
+            "timestamp": 2.292,
+            "frame": 55,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0005916402749330585
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.006387267688283443
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.7364319245788866
+                }
+            ]
+        },
+        {
+            "timestamp": 2.333,
+            "frame": 56,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0006100374157360609
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.006439783459865604
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.7400086186093765
+                }
+            ]
+        },
+        {
+            "timestamp": 2.375,
+            "frame": 57,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0005890893194031175
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.006680880229523444
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.7433290438933147
+                }
+            ]
+        },
+        {
+            "timestamp": 2.417,
+            "frame": 58,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0006451410141892859
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.007184930590803649
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.7409634917274276
+                },
+                {
+                    "class": "person",
+                    "id": 48,
+                    "risk_score": 0.0003101628834176968
+                }
+            ]
+        },
+        {
+            "timestamp": 2.458,
+            "frame": 59,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.000675499523399522
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.007397155220372478
+                },
+                {
+                    "class": "person",
+                    "id": 30,
+                    "risk_score": 0.0002761742499836375
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.743890078051135
+                }
+            ]
+        },
+        {
+            "timestamp": 2.5,
+            "frame": 60,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0005326241980443552
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.00800781943817874
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.7520948096410625
+                }
+            ]
+        },
+        {
+            "timestamp": 2.542,
+            "frame": 61,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0004990576283162561
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.008458586085076122
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.754759222536112
+                }
+            ]
+        },
+        {
+            "timestamp": 2.583,
+            "frame": 62,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0004062389370722025
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.009777439978875715
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.7567890104552728
+                }
+            ]
+        },
+        {
+            "timestamp": 2.625,
+            "frame": 63,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0003282662157921513
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.010551754675539747
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.7589208157671784
+                }
+            ]
+        },
+        {
+            "timestamp": 2.667,
+            "frame": 64,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0002978712679837883
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.01109888871124941
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.760867287094344
+                }
+            ]
+        },
+        {
+            "timestamp": 2.708,
+            "frame": 65,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0002555212391735971
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.012154597892330397
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.7622078156050235
+                }
+            ]
+        },
+        {
+            "timestamp": 2.75,
+            "frame": 66,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.00019765211618099086
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.015705718960353467
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.7609730008642666
+                }
+            ]
+        },
+        {
+            "timestamp": 2.792,
+            "frame": 67,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.00015584716241515747
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.021350564514852934
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.757565596979038
+                }
+            ]
+        },
+        {
+            "timestamp": 2.833,
+            "frame": 68,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.00021816753107315774
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.02635919064936961
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.7547011073057717
+                }
+            ]
+        },
+        {
+            "timestamp": 2.875,
+            "frame": 69,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0004092411385910444
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.027613883032516336
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.7554800113663817
+                }
+            ]
+        },
+        {
+            "timestamp": 2.917,
+            "frame": 70,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0006155043564190066
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.06349145536008544
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.721785759318318
+                }
+            ]
+        },
+        {
+            "timestamp": 2.958,
+            "frame": 71,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0007327720739532147
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.12466267543353059
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.6628885198373349
+                }
+            ]
+        },
+        {
+            "timestamp": 3.0,
+            "frame": 72,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0008997028853066353
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.14974118074217388
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.6397669682408462
+                }
+            ]
+        },
+        {
+            "timestamp": 3.042,
+            "frame": 73,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0010159379561338131
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.16715344102781177
+                },
+                {
+                    "class": "car",
+                    "id": 5,
+                    "risk_score": 0.6241878913516923
+                }
+            ]
+        },
+        {
+            "timestamp": 3.083,
+            "frame": 74,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0015255491202934776
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.7918697543021274
+                }
+            ]
+        },
+        {
+            "timestamp": 3.125,
+            "frame": 75,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0017699427776350298
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.7934502387425141
+                }
+            ]
+        },
+        {
+            "timestamp": 3.167,
+            "frame": 76,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0019824627289658546
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.7949667448778123
+                }
+            ]
+        },
+        {
+            "timestamp": 3.208,
+            "frame": 77,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0032036328286583096
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.7888791681916606
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.0019738253535185974
+                }
+            ]
+        },
+        {
+            "timestamp": 3.25,
+            "frame": 78,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.004469883409133479
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.7882148722912979
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.002032953669105509
+                }
+            ]
+        },
+        {
+            "timestamp": 3.292,
+            "frame": 79,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.003219899065178113
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.7924931083076009
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.0024132847369778498
+                }
+            ]
+        },
+        {
+            "timestamp": 3.333,
+            "frame": 80,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.01997582269497629
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.7219766498083576
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.0187779266441904
+                },
+                {
+                    "class": "person",
+                    "id": 48,
+                    "risk_score": 0.00041296468359702587
+                }
+            ]
+        },
+        {
+            "timestamp": 3.375,
+            "frame": 81,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.03231884464034445
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.6881553977465994
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.028356152385541268
+                },
+                {
+                    "class": "person",
+                    "id": 48,
+                    "risk_score": 0.00018988917352562963
+                }
+            ]
+        },
+        {
+            "timestamp": 3.417,
+            "frame": 82,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.002992180391507535
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.7944834334791924
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.0032442106390293923
+                }
+            ]
+        },
+        {
+            "timestamp": 3.458,
+            "frame": 83,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.003147300526252876
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.8039957539803138
+                }
+            ]
+        },
+        {
+            "timestamp": 3.5,
+            "frame": 84,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0029582149315094666
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.8050853756908368
+                }
+            ]
+        },
+        {
+            "timestamp": 3.542,
+            "frame": 85,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0028645287083075644
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.8061308893111785
+                }
+            ]
+        },
+        {
+            "timestamp": 3.583,
+            "frame": 86,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0027154335066357877
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.7919070060469339
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.010711506181102599
+                }
+            ]
+        },
+        {
+            "timestamp": 3.625,
+            "frame": 87,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.002760040701104618
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.7874471222012182
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.016249468557679933
+                }
+            ]
+        },
+        {
+            "timestamp": 3.667,
+            "frame": 88,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.002723297145638849
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.7826801842590181
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.022802001250850124
+                }
+            ]
+        },
+        {
+            "timestamp": 3.708,
+            "frame": 89,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.002618097026022537
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.7789185688402779
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.029243930601497693
+                }
+            ]
+        },
+        {
+            "timestamp": 3.75,
+            "frame": 90,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0024407538626267837
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.7715254986017471
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.039495669949966526
+                }
+            ]
+        },
+        {
+            "timestamp": 3.792,
+            "frame": 91,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.002199955790318222
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.7566853019976928
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.05525734251183807
+                }
+            ]
+        },
+        {
+            "timestamp": 3.833,
+            "frame": 92,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.001964568442071666
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.7587167849286115
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.054000337777977435
+                }
+            ]
+        },
+        {
+            "timestamp": 3.875,
+            "frame": 93,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.001771978712643014
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.7623076307872657
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.05114151938979161
+                }
+            ]
+        },
+        {
+            "timestamp": 3.917,
+            "frame": 94,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0015657029024066663
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.7600958978059785
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.05409380493739485
+                }
+            ]
+        },
+        {
+            "timestamp": 3.958,
+            "frame": 95,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0012867874686639212
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.7647865137614661
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.05006792873422225
+                }
+            ]
+        },
+        {
+            "timestamp": 4.0,
+            "frame": 96,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0010486337946253802
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.7616431796705917
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.05390047855845801
+                }
+            ]
+        },
+        {
+            "timestamp": 4.042,
+            "frame": 97,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0008782517558078316
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.7666081224784311
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.04954320070194514
+                }
+            ]
+        },
+        {
+            "timestamp": 4.083,
+            "frame": 98,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0006276467312315774
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.7543481913468598
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.06250081648292055
+                }
+            ]
+        },
+        {
+            "timestamp": 4.125,
+            "frame": 99,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0005402894409581599
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.686505230015125
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.13139106632028985
+                }
+            ]
+        },
+        {
+            "timestamp": 4.167,
+            "frame": 100,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.00046632004708218683
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.5318439679457607
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.2876607617009574
+                }
+            ]
+        },
+        {
+            "timestamp": 4.208,
+            "frame": 101,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 3,
+                    "risk_score": 0.0004463685280546159
+                },
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.3350820253386196
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.4852798061613664
+                }
+            ]
+        },
+        {
+            "timestamp": 4.25,
+            "frame": 102,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.005515933065891391
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.8186371239422487
+                }
+            ]
+        },
+        {
+            "timestamp": 4.292,
+            "frame": 103,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.005519281396196631
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.8191340602644169
+                }
+            ]
+        },
+        {
+            "timestamp": 4.333,
+            "frame": 104,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.005522494185466265
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.819610880511528
+                }
+            ]
+        },
+        {
+            "timestamp": 4.375,
+            "frame": 105,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.005525576920426711
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.8200683989860542
+                }
+            ]
+        },
+        {
+            "timestamp": 4.417,
+            "frame": 106,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.005528534865700675
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.8205073970273521
+                }
+            ]
+        },
+        {
+            "timestamp": 4.458,
+            "frame": 107,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.005531373072797952
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.8209286243460145
+                }
+            ]
+        },
+        {
+            "timestamp": 4.5,
+            "frame": 108,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.005196562087467199
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.8213328003042103
+                }
+            ]
+        },
+        {
+            "timestamp": 4.542,
+            "frame": 109,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.004709498692520123
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.8217206151441931
+                }
+            ]
+        },
+        {
+            "timestamp": 4.583,
+            "frame": 110,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.003977689829014369
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.8220927311670817
+                }
+            ]
+        },
+        {
+            "timestamp": 4.625,
+            "frame": 111,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.003216499382706674
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.8224497838639212
+                }
+            ]
+        },
+        {
+            "timestamp": 4.667,
+            "frame": 112,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.002856411784704087
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.8227923830009614
+                }
+            ]
+        },
+        {
+            "timestamp": 4.708,
+            "frame": 113,
+            "objects": [
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.828667239929504
+                }
+            ]
+        },
+        {
+            "timestamp": 4.75,
+            "frame": 114,
+            "objects": [
+                {
+                    "class": "car",
+                    "id": 7,
+                    "risk_score": 0.002663721093865321
+                },
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.8234365372425744
+                }
+            ]
+        },
+        {
+            "timestamp": 4.792,
+            "frame": 115,
+            "objects": [
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.8292894832539734
+                }
+            ]
+        },
+        {
+            "timestamp": 4.833,
+            "frame": 116,
+            "objects": [
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.8295818436092994
+                }
+            ]
+        },
+        {
+            "timestamp": 4.875,
+            "frame": 117,
+            "objects": [
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.829862369162883
+                }
+            ]
+        },
+        {
+            "timestamp": 4.917,
+            "frame": 118,
+            "objects": [
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.8301315389897075
+                }
+            ]
+        },
+        {
+            "timestamp": 4.958,
+            "frame": 119,
+            "objects": [
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.830389812771711
+                }
+            ]
+        },
+        {
+            "timestamp": 5.0,
+            "frame": 120,
+            "objects": [
+                {
+                    "class": "person",
+                    "id": 75,
+                    "risk_score": 0.8306376315828212
+                }
+            ]
+        }
+    ],
+    "model_prediction_class": 1,
+    "model_prediction_prob": 0.8365117907524109
+}

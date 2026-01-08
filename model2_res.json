@@ -1,0 +1,70 @@
+{
+  "overall_situation": "Daytime, clear weather on a multi-lane divided urban road with a central median. The ego vehicle is traveling straight in the right direction of travel while oncoming traffic occupies multiple opposing lanes. Road markings, crosswalks, and nearby buildings/shops indicate a busy city arterial with moderate opposing traffic and no immediate obstacles in the ego lane.",
+  "traffic_light_status": "Unknown",
+  "sudden_events": [
+    "car-4 from the oncoming side makes a sudden right-to-left turn (from its perspective left across the median) directly across the ego vehicle’s path between frames 10 and 14, rapidly entering and crossing the ego lane close to the camera vehicle.",
+    "As car-4 clears the front of the ego vehicle by frame 15, the gap in front of the ego car suddenly opens, revealing new oncoming vehicles such as car-135 and car-163 that were previously fully or partially occluded by car-4."
+  ],
+  "object_movements": [
+    {
+      "id": "car-1",
+      "description": "Oncoming car initially in the opposing lane near the center-left of frame 0 moves closer and slightly rightward relative to the camera by frames 1–2 as overall closing distance decreases, then leaves the field of view as the ego vehicle and the oncoming traffic pass each other."
+    },
+    {
+      "id": "car-3",
+      "description": "Oncoming car at far left in frame 0 continues straight in its lane toward the ego vehicle and passes out of view on the left side between frames 0 and 1 as the vehicles cross."
+    },
+    {
+      "id": "truck-20",
+      "description": "Large bus/truck in the opposing direction appears behind leading cars in frame 1–3, then moves steadily toward the camera on the opposite side of the median. By frames 4–6 it passes directly alongside the ego vehicle on the left, dominating the left side of the image, and then exits the frame rearward while the ego car continues forward."
+    },
+    {
+      "id": "car-7",
+      "description": "Oncoming car behind car-1 in frames 2–3 advances straight in its lane, coming closer and slightly shifting left in the image as it approaches, then is occluded and passes the ego vehicle by around frames 4–5."
+    },
+    {
+      "id": "truck-10",
+      "description": "Boxy truck visible in frame 3 on the oncoming side, following behind car-7. It continues straight forward in the opposing lane, moving toward the camera and slightly right in the image as it approaches, but remains fully on its side of the median before passing out of view as the vehicles cross."
+    },
+    {
+      "id": "car-34",
+      "description": "Car in the oncoming left lane near the center-left from frames 3–4 that advances straight toward the ego vehicle, staying aligned with the median before passing the ego car and exiting the left edge of the frame."
+    },
+    {
+      "id": "truck-66",
+      "description": "Large green bus or truck first clearly seen at frame 5 ahead in the oncoming lanes. It proceeds straight toward the ego vehicle, centered over the opposing lanes, grows larger, and then passes by on the left, exiting the frame as the ego vehicle continues forward."
+    },
+    {
+      "id": "car-65",
+      "description": "Oncoming car first labeled at frame 10 on the left side of the median, moving straight toward the ego car. It gets briefly occluded by the passing bus (truck-20) around frames 6–7, then reappears in frames 7–9 closer to the ego vehicle before passing by just left of the median and leaving the frame."
+    },
+    {
+      "id": "truck-93",
+      "description": "Truck visible from frame 8 in the oncoming far-left lane behind car-65. It advances steadily forward in its lane while remaining on the opposite side of the median, gradually enlarging in the image as it approaches, then passes the ego vehicle and exits the frame."
+    },
+    {
+      "id": "car-100",
+      "description": "Oncoming white car appearing near the left side in frame 9 behind car-65 and truck-93, moving straight forward within its lane and approaching the camera before likely passing by and leaving the left edge of view after frame 9."
+    },
+    {
+      "id": "car-4",
+      "description": "Dark SUV that first appears in frame 10 in the oncoming traffic lanes ahead of the ego car. Between frames 10 and 11 it begins a rightward turn across the median (from the ego perspective it moves from left-center toward the right, crossing into the ego lane). By frames 12–14 it is fully in front of the ego vehicle, traveling laterally across the ego lane at close range and rapidly growing in size, momentarily blocking most of the forward view before exiting to the right front of the ego vehicle by frame 15."
+    },
+    {
+      "id": "truck-119",
+      "description": "Truck on the far right side of the scene visible around frame 11, traveling in the same direction as the ego vehicle but in a rightmost lane farther ahead. It continues forward down the road, roughly maintaining its lateral position on the right and slowly shrinking as distance increases."
+    },
+    {
+      "id": "truck-125",
+      "description": "Large truck on the far left edge of the image from frames 11–13 moving in the same direction as the ego vehicle but in a leftmost lane. It remains mostly at the edge of the frame while the ego car approaches, then slightly shifts backward in the image as the ego vehicle passes it."
+    },
+    {
+      "id": "car-135",
+      "description": "Oncoming car that becomes clearly visible only after car-4 has crossed in front of the ego vehicle, first labeled in frame 15 on the left side of the opposing lanes. It continues straight in its lane, approaching the ego vehicle."
+    },
+    {
+      "id": "car-163",
+      "description": "Oncoming car first labeled in frame 15 in the middle opposing lane ahead. It is traveling straight toward the ego vehicle, remaining centered in its lane as it approaches."
+    }
+  ]
+}
