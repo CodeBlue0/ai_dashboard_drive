@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AI Blackbox Analysis Dashboard</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2b6cee",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                        "surface-dark": "#1a2230",
+                        "border-dark": "#282e39"
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: "Space Grotesk", sans-serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark min-h-screen text-slate-900 dark:text-white overflow-x-hidden flex flex-col">
+<!-- Top Navigation -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid dark:border-border-dark border-slate-200 px-6 py-4 md:px-10 lg:px-40 bg-white dark:bg-background-dark sticky top-0 z-50">
+<div class="flex items-center gap-4 dark:text-white text-slate-900">
+<div class="size-8 text-primary">
+<!-- Branding Icon -->
+<svg class="w-full h-full" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.8261 17.4264C16.7203 18.1174 20.2244 18.5217 24 18.5217C27.7756 18.5217 31.2797 18.1174 34.1739 17.4264C36.9144 16.7722 39.9967 15.2331 41.3563 14.1648L24.8486 40.6391C24.4571 41.267 23.5429 41.267 23.1514 40.6391L6.64374 14.1648C8.00331 15.2331 11.0856 16.7722 13.8261 17.4264Z" fill="currentColor"></path>
+<path clip-rule="evenodd" d="M39.998 12.236C39.9944 12.2537 39.9875 12.2845 39.9748 12.3294C39.9436 12.4399 39.8949 12.5741 39.8346 12.7175C39.8168 12.7597 39.7989 12.8007 39.7813 12.8398C38.5103 13.7113 35.9788 14.9393 33.7095 15.4811C30.9875 16.131 27.6413 16.5217 24 16.5217C20.3587 16.5217 17.0125 16.131 14.2905 15.4811C12.0012 14.9346 9.44505 13.6897 8.18538 12.8168C8.17384 12.7925 8.16216 12.767 8.15052 12.7408C8.09919 12.6249 8.05721 12.5114 8.02977 12.411C8.00356 12.3152 8.00039 12.2667 8.00004 12.2612C8.00004 12.261 8 12.2607 8.00004 12.2612C8.00004 12.2359 8.0104 11.9233 8.68485 11.3686C9.34546 10.8254 10.4222 10.2469 11.9291 9.72276C14.9242 8.68098 19.1919 8 24 8C28.8081 8 33.0758 8.68098 36.0709 9.72276C37.5778 10.2469 38.6545 10.8254 39.3151 11.3686C39.9006 11.8501 39.9857 12.1489 39.998 12.236ZM4.95178 15.2312L21.4543 41.6973C22.6288 43.5809 25.3712 43.5809 26.5457 41.6973L43.0534 15.223C43.0709 15.1948 43.0878 15.1662 43.104 15.1371L41.3563 14.1648C43.104 15.1371 43.1038 15.1374 43.104 15.1371L43.1051 15.135L43.1065 15.1325L43.1101 15.1261L43.1199 15.1082C43.1276 15.094 43.1377 15.0754 43.1497 15.0527C43.1738 15.0075 43.2062 14.9455 43.244 14.8701C43.319 14.7208 43.4196 14.511 43.5217 14.2683C43.6901 13.8679 44 13.0689 44 12.2609C44 10.5573 43.003 9.22254 41.8558 8.2791C40.6947 7.32427 39.1354 6.55361 37.385 5.94477C33.8654 4.72057 29.133 4 24 4C18.867 4 14.1346 4.72057 10.615 5.94478C8.86463 6.55361 7.30529 7.32428 6.14419 8.27911C4.99695 9.22255 3.99999 10.5573 3.99999 12.2609C3.99999 13.1275 4.29264 13.9078 4.49321 14.3607C4.60375 14.6102 4.71348 14.8196 4.79687 14.9689C4.83898 15.0444 4.87547 15.1065 4.9035 15.1529C4.91754 15.1762 4.92954 15.1957 4.93916 15.2111L4.94662 15.223L4.95178 15.2312ZM35.9868 18.996L24 38.22L12.0131 18.996C12.4661 19.1391 12.9179 19.2658 13.3617 19.3718C16.4281 20.1039 20.0901 20.5217 24 20.5217C27.9099 20.5217 31.5719 20.1039 34.6383 19.3718C35.082 19.2658 35.5339 19.1391 35.9868 18.996Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="dark:text-white text-slate-900 text-lg font-bold leading-tight tracking-[-0.015em]">AI Blackbox Analysis</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8">
+<div class="hidden md:flex items-center gap-9">
+<a class="dark:text-white text-slate-900 text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Dashboard</a>
+<a class="dark:text-gray-400 text-slate-500 text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">About Models</a>
+</div>
+<div class="flex gap-2">
+<button class="flex items-center justify-center overflow-hidden rounded-lg h-10 w-10 bg-slate-100 dark:bg-surface-dark text-slate-900 dark:text-white hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors">
+<span class="material-symbols-outlined text-[20px]">settings</span>
+</button>
+<button class="flex items-center justify-center overflow-hidden rounded-lg h-10 w-10 bg-slate-100 dark:bg-surface-dark text-slate-900 dark:text-white hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors">
+<span class="material-symbols-outlined text-[20px]">person</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Main Content -->
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 md:px-10 lg:px-40 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col max-w-[1200px] flex-1 gap-6">
+<!-- Main Grid Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+<!-- Video Upload Section (Spans 2 columns on large screens) -->
+<div class="lg:col-span-2 flex flex-col gap-4">
+<div class="@container">
+<div class="flex flex-col gap-3">
+<h1 class="dark:text-white text-slate-900 tracking-light text-[28px] font-bold leading-tight">Input Footage</h1>
+<!-- Video Player / Upload Area -->
+<div class="relative group w-full aspect-video rounded-xl overflow-hidden bg-surface-dark border-2 border-dashed border-border-dark flex flex-col items-center justify-center cursor-pointer hover:border-primary/50 transition-all shadow-lg" data-alt="Blurred highway view from inside a car dashboard" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 100%), url('https://lh3.googleusercontent.com/aida-public/AB6AXuDy6XXR4XTS2VO1Wrr4XOXSQCupszU3e-n_fdL3kqlejdjgaPv7bPJx83wyeispXwxFZhMTPgmeqfGU-WVsevIwho_9_mZ75K131sAAxN3IKvaZZ061QqJeWUTkrkvkYTqEOqgFm43mWDqQoaMY70XRMKawoB0VLvHfT4wl4bhheO1cRgepH_KeNKy5svYkWATaBOHtDJqdat65S6hQ3dhfv91Zy8JpwhKEHerNyqS0ro7U9_Bl2GhvHJ8tZ3TfrPKm46zuwLR0m_4'); background-size: cover; background-position: center;">
+<div class="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-all"></div>
+<div class="relative z-10 flex flex-col items-center gap-4 text-center p-6">
+<div class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center backdrop-blur-sm">
+<span class="material-symbols-outlined text-primary text-4xl">cloud_upload</span>
+</div>
+<div>
+<p class="text-white text-xl font-bold">Drop dashcam footage here</p>
+<p class="text-gray-300 text-sm mt-1">Supports MP4, AVI (Max 500MB)</p>
+</div>
+<button class="mt-4 flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-6 bg-primary hover:bg-blue-600 transition-colors text-white text-sm font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Select File</span>
+</button>
+</div>
+<!-- Processing Status Overlay (Hidden by default, shown for demo context) -->
+<div class="hidden absolute bottom-0 left-0 right-0 h-1 bg-gray-700">
+<div class="h-full bg-primary w-1/3"></div>
+</div>
+</div>
+<!-- Video Controls (Mockup) -->
+<div class="flex items-center justify-between p-3 bg-white dark:bg-surface-dark rounded-lg border border-slate-200 dark:border-border-dark shadow-sm">
+<div class="flex items-center gap-3">
+<button class="text-slate-500 hover:text-primary dark:text-gray-400 dark:hover:text-white transition-colors">
+<span class="material-symbols-outlined">play_arrow</span>
+</button>
+<div class="text-xs font-mono dark:text-gray-400 text-slate-500">00:00 / 05:30</div>
+</div>
+<div class="flex-1 mx-4 h-1 bg-slate-200 dark:bg-gray-700 rounded-full relative cursor-pointer group">
+<div class="absolute h-full bg-primary rounded-full w-[0%] group-hover:bg-blue-400 transition-all"></div>
+</div>
+<div class="flex items-center gap-2">
+<button class="text-slate-500 hover:text-primary dark:text-gray-400 dark:hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[20px]">volume_up</span>
+</button>
+<button class="text-slate-500 hover:text-primary dark:text-gray-400 dark:hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[20px]">fullscreen</span>
+</button>
+</div>
+</div>
+<div class="flex justify-end pt-2">
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center gap-2 rounded-lg h-12 px-6 bg-primary hover:bg-blue-600 text-white text-base font-bold leading-normal shadow-lg shadow-blue-900/20 transition-all transform active:scale-95">
+<span class="material-symbols-outlined">analytics</span>
+<span class="truncate">Analyze Video</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Model Summaries -->
+<div class="lg:col-span-1 flex flex-col gap-4">
+<h2 class="dark:text-white text-slate-900 tracking-light text-[28px] font-bold leading-tight">Model Analysis</h2>
+<div class="flex flex-col gap-4 h-full">
+<!-- Model 1 Card -->
+<div class="flex flex-col gap-3 rounded-xl p-5 border dark:border-border-dark border-slate-200 bg-white dark:bg-surface-dark shadow-sm hover:border-primary/30 transition-colors">
+<div class="flex justify-between items-start">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">view_in_ar</span>
+<p class="dark:text-gray-300 text-slate-600 text-sm font-medium uppercase tracking-wider">Object Detection</p>
+</div>
+<span class="flex h-2 w-2 rounded-full bg-emerald-500"></span>
+</div>
+<div>
+<p class="dark:text-white text-slate-900 tracking-light text-3xl font-bold leading-tight">98.2%</p>
+<p class="text-emerald-500 text-sm font-medium mt-1">High Confidence</p>
+</div>
+<div class="mt-2 pt-3 border-t dark:border-gray-700 border-slate-100 flex justify-between text-xs dark:text-gray-400 text-slate-500">
+<span>Cars: 14</span>
+<span>Pedestrians: 2</span>
+</div>
+</div>
+<!-- Model 2 Card -->
+<div class="flex flex-col gap-3 rounded-xl p-5 border dark:border-border-dark border-slate-200 bg-white dark:bg-surface-dark shadow-sm hover:border-primary/30 transition-colors">
+<div class="flex justify-between items-start">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-orange-400">add_road</span>
+<p class="dark:text-gray-300 text-slate-600 text-sm font-medium uppercase tracking-wider">Lane Departure</p>
+</div>
+<span class="flex h-2 w-2 rounded-full bg-orange-400"></span>
+</div>
+<div>
+<p class="dark:text-white text-slate-900 tracking-light text-3xl font-bold leading-tight">Low Risk</p>
+<p class="text-orange-400 text-sm font-medium mt-1">Minor drift detected</p>
+</div>
+<div class="mt-2 w-full bg-slate-200 dark:bg-gray-700 rounded-full h-1.5">
+<div class="bg-orange-400 h-1.5 rounded-full" style="width: 25%"></div>
+</div>
+</div>
+<!-- Model 3 Card -->
+<div class="flex flex-col gap-3 rounded-xl p-5 border dark:border-border-dark border-slate-200 bg-white dark:bg-surface-dark shadow-sm hover:border-primary/30 transition-colors">
+<div class="flex justify-between items-start">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-red-500">emergency</span>
+<p class="dark:text-gray-300 text-slate-600 text-sm font-medium uppercase tracking-wider">Accident Prob.</p>
+</div>
+<span class="flex h-2 w-2 rounded-full bg-slate-500"></span>
+</div>
+<div>
+<p class="dark:text-white text-slate-900 tracking-light text-3xl font-bold leading-tight">12%</p>
+<p class="text-slate-500 dark:text-gray-400 text-sm font-medium mt-1">Safe driving pattern</p>
+</div>
+<div class="mt-2 pt-3 border-t dark:border-gray-700 border-slate-100">
+<p class="text-xs dark:text-gray-400 text-slate-500">Next prediction in 2s...</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Event Timeline Section -->
+<div class="flex flex-col gap-4 mt-4 mb-10">
+<div class="flex justify-between items-center px-2">
+<h2 class="dark:text-white text-slate-900 tracking-light text-xl font-bold leading-tight">Event Timeline</h2>
+<button class="text-primary text-sm font-bold hover:underline">Download Report</button>
+</div>
+<div class="w-full overflow-x-auto rounded-xl border dark:border-border-dark border-slate-200 bg-white dark:bg-surface-dark shadow-sm">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="border-b dark:border-border-dark border-slate-200 bg-slate-50 dark:bg-gray-800/50">
+<th class="p-4 text-xs font-medium uppercase tracking-wider dark:text-gray-400 text-slate-500 w-24">Time</th>
+<th class="p-4 text-xs font-medium uppercase tracking-wider dark:text-gray-400 text-slate-500 w-32">Model</th>
+<th class="p-4 text-xs font-medium uppercase tracking-wider dark:text-gray-400 text-slate-500">Event Description</th>
+<th class="p-4 text-xs font-medium uppercase tracking-wider dark:text-gray-400 text-slate-500 text-right">Confidence</th>
+</tr>
+</thead>
+<tbody class="divide-y dark:divide-border-dark divide-slate-100">
+<tr class="group hover:bg-slate-50 dark:hover:bg-gray-800/50 transition-colors cursor-pointer">
+<td class="p-4 text-sm font-mono dark:text-blue-300 text-blue-600 font-bold">00:12</td>
+<td class="p-4">
+<span class="inline-flex items-center rounded-md bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-500 ring-1 ring-inset ring-emerald-500/20">Object Detect</span>
+</td>
+<td class="p-4 text-sm dark:text-gray-300 text-slate-700">Vehicle merge from right lane</td>
+<td class="p-4 text-sm text-right dark:text-white text-slate-900 font-bold">99%</td>
+</tr>
+<tr class="group hover:bg-slate-50 dark:hover:bg-gray-800/50 transition-colors cursor-pointer">
+<td class="p-4 text-sm font-mono dark:text-blue-300 text-blue-600 font-bold">01:45</td>
+<td class="p-4">
+<span class="inline-flex items-center rounded-md bg-orange-400/10 px-2 py-1 text-xs font-medium text-orange-400 ring-1 ring-inset ring-orange-400/20">Lane Dept.</span>
+</td>
+<td class="p-4 text-sm dark:text-gray-300 text-slate-700">Crossed solid line (Left)</td>
+<td class="p-4 text-sm text-right dark:text-white text-slate-900 font-bold">87%</td>
+</tr>
+<tr class="group hover:bg-slate-50 dark:hover:bg-gray-800/50 transition-colors cursor-pointer">
+<td class="p-4 text-sm font-mono dark:text-blue-300 text-blue-600 font-bold">02:10</td>
+<td class="p-4">
+<span class="inline-flex items-center rounded-md bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-500 ring-1 ring-inset ring-emerald-500/20">Object Detect</span>
+</td>
+<td class="p-4 text-sm dark:text-gray-300 text-slate-700">Pedestrian detected on sidewalk</td>
+<td class="p-4 text-sm text-right dark:text-white text-slate-900 font-bold">95%</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

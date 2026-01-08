@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Model 3 Results - Driver Score</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Noto+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2b6cee",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                        "card-dark": "#1e293b",
+                        "success": "#10b981",
+                        "warning": "#f59e0b",
+                        "danger": "#ef4444",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"],
+                        "body": ["Noto Sans", "sans-serif"],
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+<style>
+        .conic-gradient-87 {
+            background: conic-gradient(#2b6cee 87%, #334155 0);
+        }
+        /* Custom scrollbar for cleanliness */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #101622;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-white min-h-screen flex flex-col overflow-x-hidden">
+<!-- TopNavBar -->
+<header class="sticky top-0 z-50 border-b border-[#282e39] bg-background-dark/90 backdrop-blur-md px-6 py-4 lg:px-10">
+<div class="mx-auto flex max-w-[1200px] items-center justify-between">
+<div class="flex items-center gap-4 text-white">
+<div class="size-8 text-primary">
+<span class="material-symbols-outlined text-3xl">token</span>
+</div>
+<h2 class="text-xl font-bold leading-tight tracking-tight">AI Prototype Challenge</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-slate-400 hover:text-white text-sm font-medium transition-colors" href="#">Home</a>
+<a class="text-slate-400 hover:text-white text-sm font-medium transition-colors" href="#">Models</a>
+<a class="text-primary text-sm font-bold transition-colors" href="#">Results</a>
+<a class="text-slate-400 hover:text-white text-sm font-medium transition-colors" href="#">About</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="rounded-full bg-[#282e39] p-2 text-white hover:bg-[#3b4354] transition-colors">
+<span class="material-symbols-outlined text-sm">notifications</span>
+</button>
+<div class="size-8 overflow-hidden rounded-full bg-primary/20" data-alt="User avatar placeholder">
+<img class="h-full w-full object-cover" data-alt="User profile picture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPcQn-V9RzBtabQah_UyGKqP88IayMg0adAaBfS0G-WODb6MAk1M8IoLx4HUUcvOoUJutDkM4mgbhDHKECWljaD3w31mhNgd7mBZg1Wdwmjr9Rgp8YIvjNYFvWaFaXqLzg44K1LirfFd9Hsi4f3XZOaUd3qCXsixebVU7xPihxZEsjvN_lyU225Y0DG8pCBA4vJpAlW7DmWZs2xdkTPlqcVvsuxB1a7aICoMxmZOimdj6IX6ADoIDwDd8TaE0EZnDFrI1HOxgxBiQ"/>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-1 px-4 py-8 md:px-8 lg:px-40">
+<div class="mx-auto flex max-w-[1024px] flex-col gap-8">
+<!-- Breadcrumbs -->
+<div class="flex flex-wrap items-center gap-2 text-sm">
+<a class="text-slate-500 hover:text-primary transition-colors" href="#">Home</a>
+<span class="text-slate-600">/</span>
+<a class="text-slate-500 hover:text-primary transition-colors" href="#">Models</a>
+<span class="text-slate-600">/</span>
+<span class="font-medium text-white">Model 3 Results</span>
+</div>
+<!-- Page Heading & Actions -->
+<div class="flex flex-col justify-between gap-6 md:flex-row md:items-end">
+<div class="flex flex-col gap-2">
+<h1 class="text-4xl font-bold tracking-tight text-white md:text-5xl">Driver Score Analysis</h1>
+<div class="flex items-center gap-3">
+<span class="rounded bg-primary/20 px-2 py-1 text-xs font-bold text-primary uppercase tracking-wider">Model 3 v1.2</span>
+<p class="text-slate-400 text-base">Session #4029 • Oct 24, 2023</p>
+</div>
+</div>
+<div class="flex gap-3">
+<button class="flex items-center gap-2 rounded-lg border border-slate-700 bg-transparent px-4 py-2 text-sm font-medium text-white hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined text-lg">download</span>
+                        Export Report
+                    </button>
+<button class="flex items-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white hover:bg-blue-600 shadow-lg shadow-primary/25 transition-all">
+<span class="material-symbols-outlined text-lg">compare_arrows</span>
+                        Compare Model 2
+                    </button>
+</div>
+</div>
+<!-- Dashboard Grid -->
+<div class="grid grid-cols-1 gap-6 lg:grid-cols-3">
+<!-- Main Score Card (Hero) -->
+<div class="col-span-1 lg:col-span-1 flex flex-col items-center justify-center rounded-2xl bg-card-dark p-8 border border-slate-800 shadow-xl relative overflow-hidden group">
+<div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-50"></div>
+<h3 class="mb-6 text-lg font-medium text-slate-300 z-10">Overall Safety Score</h3>
+<!-- Circular Progress -->
+<div class="relative flex size-48 items-center justify-center rounded-full conic-gradient-87 shadow-[0_0_40px_-10px_rgba(43,108,238,0.3)] z-10">
+<div class="absolute inset-[12px] flex flex-col items-center justify-center rounded-full bg-card-dark">
+<span class="text-6xl font-bold text-white tracking-tighter">87</span>
+<span class="text-sm font-medium text-slate-400 uppercase tracking-widest mt-1">out of 100</span>
+</div>
+</div>
+<div class="mt-8 flex flex-col items-center gap-1 z-10">
+<div class="px-4 py-1.5 rounded-full bg-green-500/10 border border-green-500/20 text-green-400 text-sm font-bold flex items-center gap-2">
+<span class="material-symbols-outlined text-lg">verified_user</span>
+                            Level A (Safe)
+                        </div>
+<p class="text-xs text-slate-500 mt-2 text-center max-w-[200px]">Top 15% of drivers in this category.</p>
+</div>
+</div>
+<!-- AI Insight & Key Stats -->
+<div class="col-span-1 lg:col-span-2 flex flex-col gap-6">
+<!-- AI Insight Panel -->
+<div class="flex-1 rounded-2xl bg-gradient-to-r from-card-dark to-[#18202f] p-6 border border-slate-800 relative">
+<div class="absolute top-0 right-0 p-4 opacity-10">
+<span class="material-symbols-outlined text-6xl text-primary">psychology</span>
+</div>
+<div class="flex items-start gap-4">
+<div class="mt-1 flex size-10 shrink-0 items-center justify-center rounded-full bg-primary/20 text-primary">
+<span class="material-symbols-outlined">auto_awesome</span>
+</div>
+<div>
+<h3 class="text-lg font-bold text-white mb-2">AI Analysis Summary</h3>
+<p class="text-slate-300 leading-relaxed text-sm md:text-base">
+                                    The driver demonstrated excellent <span class="text-white font-medium">cornering stability</span> and consistent <span class="text-white font-medium">lane discipline</span> throughout the 45-minute session. However, the model detected <span class="text-orange-400 font-medium">2 sudden braking incidents</span> near urban intersections which slightly impacted the overall smoothness score. Recommended focus area: anticipation of traffic flow.
+                                </p>
+</div>
+</div>
+</div>
+<!-- Top Stats Grid -->
+<div class="grid grid-cols-2 gap-4 sm:grid-cols-4">
+<div class="flex flex-col gap-1 rounded-xl bg-card-dark p-4 border border-slate-800">
+<div class="text-slate-400 text-xs font-medium uppercase tracking-wider">Duration</div>
+<div class="text-xl font-bold text-white">42m 15s</div>
+</div>
+<div class="flex flex-col gap-1 rounded-xl bg-card-dark p-4 border border-slate-800">
+<div class="text-slate-400 text-xs font-medium uppercase tracking-wider">Distance</div>
+<div class="text-xl font-bold text-white">18.4 km</div>
+</div>
+<div class="flex flex-col gap-1 rounded-xl bg-card-dark p-4 border border-slate-800">
+<div class="text-slate-400 text-xs font-medium uppercase tracking-wider">Avg Speed</div>
+<div class="text-xl font-bold text-white">45 km/h</div>
+</div>
+<div class="flex flex-col gap-1 rounded-xl bg-card-dark p-4 border border-slate-800">
+<div class="text-slate-400 text-xs font-medium uppercase tracking-wider">Events</div>
+<div class="text-xl font-bold text-white">4 Flags</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Factor Analysis Section -->
+<div class="flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<h3 class="text-xl font-bold text-white">Driving Factors</h3>
+<div class="flex gap-2">
+<span class="flex items-center gap-1 text-xs text-slate-400"><span class="block size-2 rounded-full bg-primary"></span> Safe</span>
+<span class="flex items-center gap-1 text-xs text-slate-400"><span class="block size-2 rounded-full bg-orange-500"></span> Warning</span>
+</div>
+</div>
+<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+<!-- Card 1: Speed Compliance -->
+<div class="group relative flex flex-col gap-3 rounded-xl bg-card-dark p-5 border border-slate-800 hover:border-primary/50 transition-colors">
+<div class="flex items-center justify-between">
+<div class="flex size-10 items-center justify-center rounded-lg bg-slate-800 group-hover:bg-primary/20 transition-colors">
+<span class="material-symbols-outlined text-primary">speed</span>
+</div>
+<span class="text-2xl font-bold text-white">98%</span>
+</div>
+<div>
+<p class="text-sm font-medium text-slate-300">Speed Compliance</p>
+<div class="mt-2 h-1.5 w-full rounded-full bg-slate-700">
+<div class="h-1.5 rounded-full bg-primary" style="width: 98%"></div>
+</div>
+</div>
+</div>
+<!-- Card 2: Lane Keeping -->
+<div class="group relative flex flex-col gap-3 rounded-xl bg-card-dark p-5 border border-slate-800 hover:border-primary/50 transition-colors">
+<div class="flex items-center justify-between">
+<div class="flex size-10 items-center justify-center rounded-lg bg-slate-800 group-hover:bg-primary/20 transition-colors">
+<span class="material-symbols-outlined text-primary">edit_road</span>
+</div>
+<span class="text-2xl font-bold text-white">95%</span>
+</div>
+<div>
+<p class="text-sm font-medium text-slate-300">Lane Keeping</p>
+<div class="mt-2 h-1.5 w-full rounded-full bg-slate-700">
+<div class="h-1.5 rounded-full bg-primary" style="width: 95%"></div>
+</div>
+</div>
+</div>
+<!-- Card 3: Smooth Braking -->
+<div class="group relative flex flex-col gap-3 rounded-xl bg-card-dark p-5 border border-slate-800 hover:border-orange-500/50 transition-colors">
+<div class="flex items-center justify-between">
+<div class="flex size-10 items-center justify-center rounded-lg bg-slate-800 group-hover:bg-orange-500/20 transition-colors">
+<span class="material-symbols-outlined text-orange-500">u_turn_right</span>
+</div>
+<span class="text-2xl font-bold text-orange-400">82%</span>
+</div>
+<div>
+<p class="text-sm font-medium text-slate-300">Smooth Braking</p>
+<div class="mt-2 h-1.5 w-full rounded-full bg-slate-700">
+<div class="h-1.5 rounded-full bg-orange-500" style="width: 82%"></div>
+</div>
+</div>
+</div>
+<!-- Card 4: Focus / Drowsiness -->
+<div class="group relative flex flex-col gap-3 rounded-xl bg-card-dark p-5 border border-slate-800 hover:border-primary/50 transition-colors">
+<div class="flex items-center justify-between">
+<div class="flex size-10 items-center justify-center rounded-lg bg-slate-800 group-hover:bg-primary/20 transition-colors">
+<span class="material-symbols-outlined text-primary">visibility</span>
+</div>
+<span class="text-2xl font-bold text-white">100%</span>
+</div>
+<div>
+<p class="text-sm font-medium text-slate-300">Driver Focus</p>
+<div class="mt-2 h-1.5 w-full rounded-full bg-slate-700">
+<div class="h-1.5 rounded-full bg-primary" style="width: 100%"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Timeline Graph Placeholder -->
+<div class="flex flex-col gap-4">
+<h3 class="text-xl font-bold text-white">Score Timeline</h3>
+<div class="w-full rounded-2xl bg-card-dark p-6 border border-slate-800">
+<div class="flex items-end justify-between gap-2 h-48 w-full">
+<!-- Simulated Bar Chart with CSS -->
+<div class="w-full bg-primary/20 rounded-t-sm hover:bg-primary transition-all duration-300" style="height: 40%"></div>
+<div class="w-full bg-primary/30 rounded-t-sm hover:bg-primary transition-all duration-300" style="height: 55%"></div>
+<div class="w-full bg-primary/40 rounded-t-sm hover:bg-primary transition-all duration-300" style="height: 65%"></div>
+<div class="w-full bg-primary/50 rounded-t-sm hover:bg-primary transition-all duration-300" style="height: 70%"></div>
+<div class="w-full bg-primary/60 rounded-t-sm hover:bg-primary transition-all duration-300" style="height: 85%"></div>
+<div class="w-full bg-primary/50 rounded-t-sm hover:bg-primary transition-all duration-300" style="height: 80%"></div>
+<div class="w-full bg-primary/70 rounded-t-sm hover:bg-primary transition-all duration-300" style="height: 90%"></div>
+<!-- Drop detected -->
+<div class="w-full bg-orange-500/60 rounded-t-sm hover:bg-orange-500 transition-all duration-300" style="height: 45%" title="Hard Braking Event"></div>
+<div class="w-full bg-primary/60 rounded-t-sm hover:bg-primary transition-all duration-300" style="height: 60%"></div>
+<div class="w-full bg-primary/80 rounded-t-sm hover:bg-primary transition-all duration-300" style="height: 85%"></div>
+<div class="w-full bg-primary/90 rounded-t-sm hover:bg-primary transition-all duration-300" style="height: 92%"></div>
+<div class="w-full bg-primary rounded-t-sm hover:bg-primary transition-all duration-300" style="height: 95%"></div>
+</div>
+<div class="mt-4 flex justify-between text-xs text-slate-500 font-mono">
+<span>00:00</span>
+<span>10:00</span>
+<span>20:00</span>
+<span>30:00</span>
+<span>40:00</span>
+</div>
+</div>
+</div>
+<!-- Raw Data Table Section -->
+<div class="flex flex-col gap-4 pb-12">
+<div class="flex items-center justify-between">
+<h3 class="text-xl font-bold text-white">Risk Events Log</h3>
+<a class="text-sm text-primary hover:underline" href="#">View Full Log</a>
+</div>
+<div class="overflow-hidden rounded-xl border border-slate-800 bg-card-dark">
+<table class="w-full text-left text-sm text-slate-400">
+<thead class="bg-slate-800/50 text-xs uppercase text-slate-300">
+<tr>
+<th class="px-6 py-3 font-medium">Time</th>
+<th class="px-6 py-3 font-medium">Event Type</th>
+<th class="px-6 py-3 font-medium">Severity</th>
+<th class="px-6 py-3 font-medium">Impact</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-slate-800">
+<tr class="group hover:bg-slate-800/30 transition-colors">
+<td class="px-6 py-4 font-mono text-slate-300">14:32:05</td>
+<td class="px-6 py-4 text-white flex items-center gap-2">
+<span class="material-symbols-outlined text-orange-400 text-sm">warning</span>
+                                    Hard Braking
+                                </td>
+<td class="px-6 py-4">
+<span class="rounded bg-orange-500/10 px-2 py-1 text-xs font-bold text-orange-400">MEDIUM</span>
+</td>
+<td class="px-6 py-4 text-red-400">-5 pts</td>
+</tr>
+<tr class="group hover:bg-slate-800/30 transition-colors">
+<td class="px-6 py-4 font-mono text-slate-300">14:45:22</td>
+<td class="px-6 py-4 text-white flex items-center gap-2">
+<span class="material-symbols-outlined text-yellow-400 text-sm">priority_high</span>
+                                    Rapid Acceleration
+                                </td>
+<td class="px-6 py-4">
+<span class="rounded bg-yellow-500/10 px-2 py-1 text-xs font-bold text-yellow-400">LOW</span>
+</td>
+<td class="px-6 py-4 text-red-400">-3 pts</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</main>
+</body></html>

@@ -1,0 +1,10 @@
+{
+"situation_summary": "The attached video file could not be visually analyzed, so the exact frame-by-frame traffic scene, object positions, and light states cannot be determined from the available data alone.",
+​
+"pedestrian_events": "Pedestrian presence, exact frames of visibility, locations (e.g., crosswalk vs sidewalk), and movement directions cannot be identified because the visual content of the video is not accessible beyond a non-visual summary stating only that there is no audio.",
+​
+"traffic_light_status": "The states of vehicle traffic signals (red/yellow/green) and pedestrian signals (standing/walking icons), as well as whether they are visible in any of the 15 frames, cannot be determined from the available non-visual metadata.",
+​
+"vehicle_context": "The positions, motions, and relative distances of other vehicles, as well as the ego-vehicle’s movement (e.g., accelerating, decelerating, or maintaining speed), cannot be described because the underlying video frames are not available for inspection beyond the brief text summary of the file."
+​
+}
